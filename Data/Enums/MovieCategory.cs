@@ -1,4 +1,4 @@
-﻿namespace cine.Data
+﻿namespace cine.Data.Enums
 {
     public enum MovieCategory
     {

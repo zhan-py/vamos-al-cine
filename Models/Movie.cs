@@ -1,5 +1,6 @@
-﻿using cine.Data;
+﻿using cine.Data.Enums;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Security.Principal;
 
 namespace cine.Models
@@ -15,5 +16,18 @@ namespace cine.Models
         public DateTime StartDate { get; set; }
         public DateTime EndDate { get; set; }
         public MovieCategory MovieCategory { get; set; }
+
+        //relationships
+        public List<Actor_Movie> Actors_Movies { get; set; }
+
+        //cinema
+        public int CinemaId { get; set; }
+        [ForeignKey("CinemaId")]
+        public Cinema Cinema { get; set; }
+
+        //producer
+        public int ProducerId { get; set; }
+        [ForeignKey("ProducerId")]
+        public Producer Producer { get; set; }
     }
 }
