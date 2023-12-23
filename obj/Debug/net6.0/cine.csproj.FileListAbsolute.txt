@@ -64,3 +64,5 @@ D:\8.Term4\C#\cine\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runti
 D:\8.Term4\C#\cine\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
 D:\8.Term4\C#\cine\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
 D:\8.Term4\C#\cine\obj\Debug\net6.0\cine.csproj.CopyComplete
+D:\8.Term4\C#\cine\bin\Debug\net6.0\Humanizer.dll
+D:\8.Term4\C#\cine\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
