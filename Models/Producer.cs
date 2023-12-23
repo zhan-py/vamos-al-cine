@@ -1,8 +1,9 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using cine.Data.Base;
+using System.ComponentModel.DataAnnotations;
 
 namespace cine.Models
 {
-    public class Producer
+    public class Producer:IEntityBase
     {
         [Key]
         public int Id { get; set; }
